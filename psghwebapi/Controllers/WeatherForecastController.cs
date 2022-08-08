@@ -35,5 +35,11 @@ namespace psghwebapi.Controllers
             })
             .ToArray();
         }
+        [HttpGet]
+        [Route("ping1")]
+        public string Docker()
+        {
+            return "ping1 is online!";
+        }
     }
 }
