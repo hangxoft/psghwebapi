@@ -36,10 +36,10 @@ namespace psghwebapi.Controllers
             .ToArray();
         }
         [HttpGet]
-        [Route("ping1")]
+        [Route("ping3")]
         public string Docker()
         {
-            return "ping1 is online!";
+            return "ping3 is online!";
         }
     }
 }
